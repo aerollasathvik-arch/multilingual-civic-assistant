@@ -1,0 +1,151 @@
+qid,domain,lang,question,gold_url,evidence,translation_status
+S01,schools,en,When is the deadline to apply for a primary school place?,https://www.gov.uk/schools-admissions,close on 15 January,source
+S01,schools,pl,Jaki jest termin składania wniosku o miejsce w szkole podstawowej?,https://www.gov.uk/schools-admissions,close on 15 January,unverified
+S01,schools,ro,Care este termenul limită pentru a depune cererea pentru un loc la școala primară?,https://www.gov.uk/schools-admissions,close on 15 January,unverified
+S01,schools,ar,ما هو الموعد النهائي للتقديم على مقعد في المدرسة الابتدائية؟,https://www.gov.uk/schools-admissions,close on 15 January,unverified
+S01,schools,ur,پرائمری اسکول میں داخلے کی درخواست دینے کی آخری تاریخ کیا ہے؟,https://www.gov.uk/schools-admissions,close on 15 January,unverified
+S02,schools,en,What is the last date to apply for a secondary school place?,https://www.gov.uk/schools-admissions,by 31 October,source
+S02,schools,pl,Do kiedy trzeba złożyć wniosek o miejsce w szkole średniej?,https://www.gov.uk/schools-admissions,by 31 October,unverified
+S02,schools,ro,Până la ce dată trebuie să aplic pentru un loc la școala secundară?,https://www.gov.uk/schools-admissions,by 31 October,unverified
+S02,schools,ar,ما هو آخر موعد للتقديم على مقعد في المدرسة الثانوية؟,https://www.gov.uk/schools-admissions,by 31 October,unverified
+S02,schools,ur,سیکنڈری اسکول میں داخلے کے لیے درخواست کس تاریخ تک دینی ہوگی؟,https://www.gov.uk/schools-admissions,by 31 October,unverified
+S03,schools,en,When will I find out which primary school my child has been offered?,https://www.gov.uk/schools-admissions,primary schools on 16 April,source
+S03,schools,pl,"Kiedy dowiem się, do której szkoły podstawowej zostało przyjęte moje dziecko?",https://www.gov.uk/schools-admissions,primary schools on 16 April,unverified
+S03,schools,ro,Când voi afla la ce școală primară a primit loc copilul meu?,https://www.gov.uk/schools-admissions,primary schools on 16 April,unverified
+S03,schools,ar,متى سأعرف المدرسة الابتدائية التي قُبل فيها طفلي؟,https://www.gov.uk/schools-admissions,primary schools on 16 April,unverified
+S03,schools,ur,مجھے کب پتہ چلے گا کہ میرے بچے کو کون سے پرائمری اسکول میں جگہ ملی ہے؟,https://www.gov.uk/schools-admissions,primary schools on 16 April,unverified
+S04,schools,en,How long do I have to appeal if my child is refused a school place?,https://www.gov.uk/schools-admissions,at least 20 school days,source
+S04,schools,pl,"Ile mam czasu na odwołanie, jeśli moje dziecko nie dostało miejsca w szkole?",https://www.gov.uk/schools-admissions,at least 20 school days,unverified
+S04,schools,ro,Cât timp am la dispoziție să fac contestație dacă copilul meu nu a primit loc la școală?,https://www.gov.uk/schools-admissions,at least 20 school days,unverified
+S04,schools,ar,كم لدي من الوقت للاستئناف إذا رُفض طلب طفلي للحصول على مقعد في المدرسة؟,https://www.gov.uk/schools-admissions,at least 20 school days,unverified
+S04,schools,ur,اگر میرے بچے کو اسکول میں جگہ نہ ملے تو اپیل کرنے کے لیے میرے پاس کتنا وقت ہے؟,https://www.gov.uk/schools-admissions,at least 20 school days,unverified
+S05,schools,en,Can I be fined for taking my child on holiday during term time?,https://www.gov.uk/school-attendance-absence,fined or face legal action for taking your child on holiday,source
+S05,schools,pl,Czy mogę dostać grzywnę za zabranie dziecka na wakacje w trakcie roku szkolnego?,https://www.gov.uk/school-attendance-absence,fined or face legal action for taking your child on holiday,unverified
+S05,schools,ro,Pot primi amendă dacă îmi iau copilul în vacanță în timpul semestrului?,https://www.gov.uk/school-attendance-absence,fined or face legal action for taking your child on holiday,unverified
+S05,schools,ar,هل يمكن أن أُغرَّم إذا أخذت طفلي في عطلة أثناء الفصل الدراسي؟,https://www.gov.uk/school-attendance-absence,fined or face legal action for taking your child on holiday,unverified
+S05,schools,ur,کیا ٹرم کے دوران بچے کو چھٹیوں پر لے جانے پر مجھے جرمانہ ہو سکتا ہے؟,https://www.gov.uk/school-attendance-absence,fined or face legal action for taking your child on holiday,unverified
+S06,schools,en,Can my child get free school meals if I receive Universal Credit?,https://www.gov.uk/apply-free-school-meals,free school meals if you get any of the following,source
+S06,schools,pl,"Czy moje dziecko może dostać darmowe posiłki w szkole, jeśli otrzymuję Universal Credit?",https://www.gov.uk/apply-free-school-meals,free school meals if you get any of the following,unverified
+S06,schools,ro,Poate copilul meu să primească mese gratuite la școală dacă primesc Universal Credit?,https://www.gov.uk/apply-free-school-meals,free school meals if you get any of the following,unverified
+S06,schools,ar,هل يمكن لطفلي الحصول على وجبات مدرسية مجانية إذا كنت أتلقى Universal Credit؟,https://www.gov.uk/apply-free-school-meals,free school meals if you get any of the following,unverified
+S06,schools,ur,اگر مجھے Universal Credit ملتا ہے تو کیا میرے بچے کو اسکول میں مفت کھانا مل سکتا ہے؟,https://www.gov.uk/apply-free-school-meals,free school meals if you get any of the following,unverified
+S07,schools,en,Is school transport free if the school is far from home?,https://www.gov.uk/free-school-transport,more than 2 miles away and the child is under 8,source
+S07,schools,pl,"Czy transport do szkoły jest darmowy, jeśli szkoła jest daleko od domu?",https://www.gov.uk/free-school-transport,more than 2 miles away and the child is under 8,unverified
+S07,schools,ro,Este transportul la școală gratuit dacă școala este departe de casă?,https://www.gov.uk/free-school-transport,more than 2 miles away and the child is under 8,unverified
+S07,schools,ar,هل المواصلات المدرسية مجانية إذا كانت المدرسة بعيدة عن المنزل؟,https://www.gov.uk/free-school-transport,more than 2 miles away and the child is under 8,unverified
+S07,schools,ur,اگر اسکول گھر سے دور ہو تو کیا اسکول کی ٹرانسپورٹ مفت ہے؟,https://www.gov.uk/free-school-transport,more than 2 miles away and the child is under 8,unverified
+S08,schools,en,At what age can my child leave school?,https://www.gov.uk/know-when-you-can-leave-school,16 by the end of the summer holidays,source
+S08,schools,pl,W jakim wieku moje dziecko może skończyć szkołę?,https://www.gov.uk/know-when-you-can-leave-school,16 by the end of the summer holidays,unverified
+S08,schools,ro,La ce vârstă poate copilul meu să termine școala?,https://www.gov.uk/know-when-you-can-leave-school,16 by the end of the summer holidays,unverified
+S08,schools,ar,في أي عمر يمكن لطفلي ترك المدرسة؟,https://www.gov.uk/know-when-you-can-leave-school,16 by the end of the summer holidays,unverified
+S08,schools,ur,میرا بچہ کس عمر میں اسکول چھوڑ سکتا ہے؟,https://www.gov.uk/know-when-you-can-leave-school,16 by the end of the summer holidays,unverified
+S09,schools,en,What support can my child get for special educational needs?,https://www.gov.uk/children-with-special-educational-needs,SEN support - support given in school,source
+S09,schools,pl,Jakie wsparcie może otrzymać moje dziecko ze specjalnymi potrzebami edukacyjnymi?,https://www.gov.uk/children-with-special-educational-needs,SEN support - support given in school,unverified
+S09,schools,ro,Ce sprijin poate primi copilul meu pentru cerințe educaționale speciale?,https://www.gov.uk/children-with-special-educational-needs,SEN support - support given in school,unverified
+S09,schools,ar,ما الدعم الذي يمكن أن يحصل عليه طفلي إذا كانت لديه احتياجات تعليمية خاصة؟,https://www.gov.uk/children-with-special-educational-needs,SEN support - support given in school,unverified
+S09,schools,ur,خصوصی تعلیمی ضروریات والے میرے بچے کو کیا مدد مل سکتی ہے؟,https://www.gov.uk/children-with-special-educational-needs,SEN support - support given in school,unverified
+S10,schools,en,How do I complain about my child's state school?,https://www.gov.uk/complain-about-school,different ways to complain in England,source
+S10,schools,pl,Jak złożyć skargę na państwową szkołę mojego dziecka?,https://www.gov.uk/complain-about-school,different ways to complain in England,unverified
+S10,schools,ro,Cum fac o plângere împotriva școlii de stat a copilului meu?,https://www.gov.uk/complain-about-school,different ways to complain in England,unverified
+S10,schools,ar,كيف أقدم شكوى ضد المدرسة الحكومية التي يدرس فيها طفلي؟,https://www.gov.uk/complain-about-school,different ways to complain in England,unverified
+S10,schools,ur,میں اپنے بچے کے سرکاری اسکول کے بارے میں شکایت کیسے کروں؟,https://www.gov.uk/complain-about-school,different ways to complain in England,unverified
+H01,housing,en,Can my landlord evict me without giving a reason?,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,section 21 process,source
+H01,housing,pl,Czy wynajmujący może mnie eksmitować bez podania powodu?,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,section 21 process,unverified
+H01,housing,ro,Poate proprietarul să mă evacueze fără să-mi dea un motiv?,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,section 21 process,unverified
+H01,housing,ar,هل يمكن للمالك أن يطردني دون إبداء سبب؟,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,section 21 process,unverified
+H01,housing,ur,کیا مالک مکان مجھے بغیر کوئی وجہ بتائے گھر سے نکال سکتا ہے؟,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,section 21 process,unverified
+H02,housing,en,How often can my landlord increase the rent?,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,increase the rent once a year,source
+H02,housing,pl,Jak często wynajmujący może podnosić czynsz?,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,increase the rent once a year,unverified
+H02,housing,ro,Cât de des poate proprietarul să crească chiria?,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,increase the rent once a year,unverified
+H02,housing,ar,كم مرة يمكن للمالك أن يرفع الإيجار؟,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,increase the rent once a year,unverified
+H02,housing,ur,مالک مکان کتنی بار کرایہ بڑھا سکتا ہے؟,https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants,increase the rent once a year,unverified
+H03,housing,en,My landlord took a deposit from me. Does it have to be protected?,https://www.gov.uk/tenancy-deposit-protection,Deposit Protection Service,source
+H03,housing,pl,Wynajmujący pobrał ode mnie kaucję. Czy musi ona być zabezpieczona?,https://www.gov.uk/tenancy-deposit-protection,Deposit Protection Service,unverified
+H03,housing,ro,Proprietarul mi-a luat o garanție. Trebuie aceasta să fie protejată?,https://www.gov.uk/tenancy-deposit-protection,Deposit Protection Service,unverified
+H03,housing,ar,أخذ المالك مني مبلغ تأمين، هل يجب أن يكون هذا التأمين محميًا؟,https://www.gov.uk/tenancy-deposit-protection,Deposit Protection Service,unverified
+H03,housing,ur,مالک مکان نے مجھ سے ڈپازٹ لیا ہے، کیا اس ڈپازٹ کا محفوظ ہونا ضروری ہے؟,https://www.gov.uk/tenancy-deposit-protection,Deposit Protection Service,unverified
+H04,housing,en,How can I get help paying my rent if I am on a low income?,https://www.gov.uk/housing-benefit,help you pay your rent,source
+H04,housing,pl,"Jak uzyskać pomoc w opłaceniu czynszu, jeśli mam niskie dochody?",https://www.gov.uk/housing-benefit,help you pay your rent,unverified
+H04,housing,ro,Cum pot primi ajutor pentru plata chiriei dacă am un venit mic?,https://www.gov.uk/housing-benefit,help you pay your rent,unverified
+H04,housing,ar,كيف أحصل على مساعدة في دفع الإيجار إذا كان دخلي منخفضًا؟,https://www.gov.uk/housing-benefit,help you pay your rent,unverified
+H04,housing,ur,کم آمدنی کی صورت میں مجھے کرایہ ادا کرنے میں مدد کیسے مل سکتی ہے؟,https://www.gov.uk/housing-benefit,help you pay your rent,unverified
+H05,housing,en,How do I apply for council housing?,https://www.gov.uk/council-housing,join a waiting list,source
+H05,housing,pl,Jak złożyć wniosek o mieszkanie komunalne?,https://www.gov.uk/council-housing,join a waiting list,unverified
+H05,housing,ro,Cum aplic pentru o locuință socială de la consiliul local?,https://www.gov.uk/council-housing,join a waiting list,unverified
+H05,housing,ar,كيف أتقدم بطلب للحصول على سكن من المجلس المحلي؟,https://www.gov.uk/council-housing,join a waiting list,unverified
+H05,housing,ur,میں کونسل کے مکان کے لیے درخواست کیسے دوں؟,https://www.gov.uk/council-housing,join a waiting list,unverified
+H06,housing,en,I am about to lose my home. Can the council help me?,https://www.gov.uk/homelessness-help-from-council,homeless or about to lose your home,source
+H06,housing,pl,Zaraz stracę dom. Czy lokalny urząd może mi pomóc?,https://www.gov.uk/homelessness-help-from-council,homeless or about to lose your home,unverified
+H06,housing,ro,Sunt pe punctul de a-mi pierde locuința. Mă poate ajuta consiliul local?,https://www.gov.uk/homelessness-help-from-council,homeless or about to lose your home,unverified
+H06,housing,ar,أنا على وشك أن أفقد منزلي، هل يمكن للمجلس المحلي مساعدتي؟,https://www.gov.uk/homelessness-help-from-council,homeless or about to lose your home,unverified
+H06,housing,ur,میرا گھر چھننے والا ہے، کیا کونسل میری مدد کر سکتی ہے؟,https://www.gov.uk/homelessness-help-from-council,homeless or about to lose your home,unverified
+H07,housing,en,Does my landlord have to keep my rented home in good repair?,https://www.gov.uk/private-renting,safe and in a good state of repair,source
+H07,housing,pl,Czy wynajmujący musi utrzymywać wynajmowane mieszkanie w dobrym stanie technicznym?,https://www.gov.uk/private-renting,safe and in a good state of repair,unverified
+H07,housing,ro,Este proprietarul obligat să mențină locuința închiriată în stare bună?,https://www.gov.uk/private-renting,safe and in a good state of repair,unverified
+H07,housing,ar,هل يجب على المالك أن يحافظ على المنزل المؤجر في حالة جيدة؟,https://www.gov.uk/private-renting,safe and in a good state of repair,unverified
+H07,housing,ur,کیا مالک مکان پر کرائے کے گھر کو اچھی حالت میں رکھنا لازم ہے؟,https://www.gov.uk/private-renting,safe and in a good state of repair,unverified
+H08,housing,en,How much notice must my landlord give before visiting the property?,https://www.gov.uk/private-renting,24 hours,source
+H08,housing,pl,Z jakim wyprzedzeniem wynajmujący musi mnie uprzedzić przed wizytą w mieszkaniu?,https://www.gov.uk/private-renting,24 hours,unverified
+H08,housing,ro,Cu cât timp înainte trebuie să mă anunțe proprietarul dacă vrea să vină în locuință?,https://www.gov.uk/private-renting,24 hours,unverified
+H08,housing,ar,كم من الوقت يجب أن يخطرني المالك قبل أن يزور المنزل؟,https://www.gov.uk/private-renting,24 hours,unverified
+H08,housing,ur,گھر آنے سے پہلے مالک مکان کو مجھے کتنا پہلے اطلاع دینی چاہیے؟,https://www.gov.uk/private-renting,24 hours,unverified
+H09,housing,en,Do I get a council tax discount if I live alone?,https://www.gov.uk/council-tax,25% off your bill,source
+H09,housing,pl,"Czy dostanę zniżkę na podatek lokalny, jeśli mieszkam sam?",https://www.gov.uk/council-tax,25% off your bill,unverified
+H09,housing,ro,Primesc reducere la impozitul local pe locuință dacă locuiesc singur?,https://www.gov.uk/council-tax,25% off your bill,unverified
+H09,housing,ar,هل أحصل على خصم في ضريبة المجلس المحلي إذا كنت أعيش وحدي؟,https://www.gov.uk/council-tax,25% off your bill,unverified
+H09,housing,ur,اگر میں اکیلا رہتا ہوں تو کیا مجھے کونسل ٹیکس میں رعایت ملتی ہے؟,https://www.gov.uk/council-tax,25% off your bill,unverified
+H10,housing,en,What can I do if my council or housing association wants to evict me?,https://www.gov.uk/council-housing-association-evictions,stop or delay the eviction,source
+H10,housing,pl,"Co mogę zrobić, jeśli lokalny urząd lub stowarzyszenie mieszkaniowe chce mnie eksmitować?",https://www.gov.uk/council-housing-association-evictions,stop or delay the eviction,unverified
+H10,housing,ro,Ce pot face dacă consiliul local sau asociația de locuințe vrea să mă evacueze?,https://www.gov.uk/council-housing-association-evictions,stop or delay the eviction,unverified
+H10,housing,ar,ماذا يمكنني أن أفعل إذا أراد المجلس المحلي أو جمعية الإسكان طردي؟,https://www.gov.uk/council-housing-association-evictions,stop or delay the eviction,unverified
+H10,housing,ur,اگر کونسل یا ہاؤسنگ ایسوسی ایشن مجھے گھر سے نکالنا چاہے تو میں کیا کر سکتا ہوں؟,https://www.gov.uk/council-housing-association-evictions,stop or delay the eviction,unverified
+M01,health,en,How do I register with a GP surgery?,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,change your current GP surgery online,source
+M01,health,pl,Jak zarejestrować się u lekarza rodzinnego?,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,change your current GP surgery online,unverified
+M01,health,ro,Cum mă înregistrez la un medic de familie?,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,change your current GP surgery online,unverified
+M01,health,ar,كيف أسجل لدى طبيب عام؟,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,change your current GP surgery online,unverified
+M01,health,ur,میں جی پی کے پاس رجسٹریشن کیسے کرواؤں؟,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,change your current GP surgery online,unverified
+M02,health,en,Do I need proof of address or immigration status to register with a GP?,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,"do not need ID, proof of address",source
+M02,health,pl,"Czy potrzebuję potwierdzenia adresu lub statusu imigracyjnego, aby zarejestrować się u lekarza rodzinnego?",https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,"do not need ID, proof of address",unverified
+M02,health,ro,Am nevoie de dovada adresei sau a statutului de imigrant ca să mă înregistrez la medicul de familie?,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,"do not need ID, proof of address",unverified
+M02,health,ar,هل أحتاج إلى إثبات عنوان أو إثبات وضع الهجرة للتسجيل لدى طبيب عام؟,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,"do not need ID, proof of address",unverified
+M02,health,ur,کیا جی پی کے پاس رجسٹر ہونے کے لیے مجھے پتے یا امیگریشن اسٹیٹس کا ثبوت چاہیے؟,https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/,"do not need ID, proof of address",unverified
+M03,health,en,When should I use NHS 111?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-use-111/,if you think you need medical help right now,source
+M03,health,pl,Kiedy powinienem skorzystać z NHS 111?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-use-111/,if you think you need medical help right now,unverified
+M03,health,ro,Când ar trebui să folosesc NHS 111?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-use-111/,if you think you need medical help right now,unverified
+M03,health,ar,متى يجب أن أستخدم خدمة NHS 111؟,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-use-111/,if you think you need medical help right now,unverified
+M03,health,ur,مجھے NHS 111 کب استعمال کرنا چاہیے؟,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-use-111/,if you think you need medical help right now,unverified
+M04,health,en,When should I go to A&E?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-go-to-ae/,serious injuries and life-threatening emergencies,source
+M04,health,pl,Kiedy powinienem iść na szpitalny oddział ratunkowy?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-go-to-ae/,serious injuries and life-threatening emergencies,unverified
+M04,health,ro,Când ar trebui să merg la urgențe?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-go-to-ae/,serious injuries and life-threatening emergencies,unverified
+M04,health,ar,متى يجب أن أذهب إلى قسم الطوارئ؟,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-go-to-ae/,serious injuries and life-threatening emergencies,unverified
+M04,health,ur,مجھے ہسپتال کے ایمرجنسی شعبے میں کب جانا چاہیے؟,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-go-to-ae/,serious injuries and life-threatening emergencies,unverified
+M05,health,en,When should I call 999?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/,999 is for life-threatening emergencies,source
+M05,health,pl,Kiedy powinienem dzwonić pod numer 999?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/,999 is for life-threatening emergencies,unverified
+M05,health,ro,Când ar trebui să sun la 999?,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/,999 is for life-threatening emergencies,unverified
+M05,health,ar,متى يجب أن أتصل بالرقم 999؟,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/,999 is for life-threatening emergencies,unverified
+M05,health,ur,مجھے 999 پر کب کال کرنی چاہیے؟,https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/,999 is for life-threatening emergencies,unverified
+M06,health,en,How can I find an NHS dentist?,https://www.nhs.uk/nhs-services/dentists/how-to-find-an-nhs-dentist/,Ask for an NHS appointment,source
+M06,health,pl,Jak znaleźć dentystę NHS?,https://www.nhs.uk/nhs-services/dentists/how-to-find-an-nhs-dentist/,Ask for an NHS appointment,unverified
+M06,health,ro,Cum găsesc un dentist NHS?,https://www.nhs.uk/nhs-services/dentists/how-to-find-an-nhs-dentist/,Ask for an NHS appointment,unverified
+M06,health,ar,كيف أجد طبيب أسنان تابعًا لـ NHS؟,https://www.nhs.uk/nhs-services/dentists/how-to-find-an-nhs-dentist/,Ask for an NHS appointment,unverified
+M06,health,ur,میں NHS کا ڈینٹسٹ کیسے تلاش کروں؟,https://www.nhs.uk/nhs-services/dentists/how-to-find-an-nhs-dentist/,Ask for an NHS appointment,unverified
+M07,health,en,How much does a basic NHS dental check-up cost?,https://www.nhs.uk/nhs-services/dentists/how-much-nhs-dental-treatment-costs/,£27.90,source
+M07,health,pl,Ile kosztuje podstawowy przegląd u dentysty w NHS?,https://www.nhs.uk/nhs-services/dentists/how-much-nhs-dental-treatment-costs/,£27.90,unverified
+M07,health,ro,Cât costă un control stomatologic de bază la NHS?,https://www.nhs.uk/nhs-services/dentists/how-much-nhs-dental-treatment-costs/,£27.90,unverified
+M07,health,ar,كم يكلف فحص الأسنان الأساسي في NHS؟,https://www.nhs.uk/nhs-services/dentists/how-much-nhs-dental-treatment-costs/,£27.90,unverified
+M07,health,ur,NHS میں دانتوں کے بنیادی معائنے پر کتنا خرچ آتا ہے؟,https://www.nhs.uk/nhs-services/dentists/how-much-nhs-dental-treatment-costs/,£27.90,unverified
+M08,health,en,Can a pharmacy give me prescription medicine without seeing a GP?,https://www.nhs.uk/nhs-services/pharmacies/how-pharmacies-can-help/,This is called Pharmacy First,source
+M08,health,pl,Czy apteka może wydać mi lek na receptę bez wizyty u lekarza?,https://www.nhs.uk/nhs-services/pharmacies/how-pharmacies-can-help/,This is called Pharmacy First,unverified
+M08,health,ro,Poate o farmacie să-mi dea medicamente cu rețetă fără să merg la medic?,https://www.nhs.uk/nhs-services/pharmacies/how-pharmacies-can-help/,This is called Pharmacy First,unverified
+M08,health,ar,هل يمكن للصيدلية أن تعطيني دواءً يحتاج إلى وصفة طبية دون أن أرى الطبيب؟,https://www.nhs.uk/nhs-services/pharmacies/how-pharmacies-can-help/,This is called Pharmacy First,unverified
+M08,health,ur,کیا فارمیسی ڈاکٹر کو دکھائے بغیر مجھے نسخے والی دوا دے سکتی ہے؟,https://www.nhs.uk/nhs-services/pharmacies/how-pharmacies-can-help/,This is called Pharmacy First,unverified
+M09,health,en,Can I get help with health costs if I have a low income?,https://www.nhs.uk/nhs-services/help-with-health-costs/nhs-low-income-scheme-lis/,HC2 certificate,source
+M09,health,pl,"Czy mogę dostać pomoc w pokryciu kosztów leczenia, jeśli mam niskie dochody?",https://www.nhs.uk/nhs-services/help-with-health-costs/nhs-low-income-scheme-lis/,HC2 certificate,unverified
+M09,health,ro,Pot primi ajutor pentru costurile medicale dacă am venituri mici?,https://www.nhs.uk/nhs-services/help-with-health-costs/nhs-low-income-scheme-lis/,HC2 certificate,unverified
+M09,health,ar,هل يمكنني الحصول على مساعدة في التكاليف الصحية إذا كان دخلي منخفضًا؟,https://www.nhs.uk/nhs-services/help-with-health-costs/nhs-low-income-scheme-lis/,HC2 certificate,unverified
+M09,health,ur,کیا کم آمدنی کی صورت میں مجھے علاج کے اخراجات میں مدد مل سکتی ہے؟,https://www.nhs.uk/nhs-services/help-with-health-costs/nhs-low-income-scheme-lis/,HC2 certificate,unverified
+M10,health,en,How much is the immigration health surcharge for students?,https://www.gov.uk/healthcare-immigration-application,£776 per year for students,source
+M10,health,pl,Ile wynosi dopłata zdrowotna dla imigrantów w przypadku studentów?,https://www.gov.uk/healthcare-immigration-application,£776 per year for students,unverified
+M10,health,ro,Cât costă taxa de sănătate pentru imigranți în cazul studenților?,https://www.gov.uk/healthcare-immigration-application,£776 per year for students,unverified
+M10,health,ar,كم تبلغ رسوم الرعاية الصحية للمهاجرين بالنسبة للطلاب؟,https://www.gov.uk/healthcare-immigration-application,£776 per year for students,unverified
+M10,health,ur,طلبہ کے لیے امیگریشن ہیلتھ سرچارج کتنا ہے؟,https://www.gov.uk/healthcare-immigration-application,£776 per year for students,unverified
