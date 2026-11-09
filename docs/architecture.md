@@ -20,7 +20,11 @@
 | Embeddings | `intfloat/multilingual-e5-base` (main), `paraphrase-multilingual-MiniLM-L12-v2` (comparison) | MIT / Apache-2.0 | done |
 | Vector index | FAISS `IndexFlatIP` on normalised vectors (exact cosine search; corpus is small) | MIT | done |
 | Lexical baseline | `rank_bm25` BM25Okapi | Apache-2.0 | done |
-| Translation | `facebook/nllb-200-distilled-600M` (candidate) | CC-BY-NC-4.0 | week 5 |
+| Language ID | `lingua-language-detector`, restricted to en/pl/ro/ar/ur | Apache-2.0 | done (week 5) |
+| Translation | `facebook/nllb-200-distilled-600M`, sentence by sentence | CC-BY-NC-4.0 | done (week 5) |
+| Nation filter | Heading-based nation tag per chunk; England / UK-wide only | - | done (week 5) |
+| Fusion | Reciprocal rank fusion of original-language and translated searches (k = 60) | - | done (week 5) |
+| Reranker | `BAAI/bge-reranker-v2-m3` cross-encoder on top 20 | Apache-2.0 | done (week 5) |
 | Generation | LLM API, chosen in week 6 | - | week 6 |
 | Front-end | Web app, chosen in week 8 | - | week 8 |
 

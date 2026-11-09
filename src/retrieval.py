@@ -6,6 +6,7 @@ Lexical: BM25 (rank_bm25), used as a non-neural baseline.
 """
 import re
 
+import torch  # noqa: F401  must load before faiss: on macOS the two OpenMP runtimes otherwise crash NLLB generation
 import faiss
 import numpy as np
 from rank_bm25 import BM25Okapi

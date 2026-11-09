@@ -1,0 +1,121 @@
+qid,lang,question,nllb_english,original_english
+S01,ar,ما هو الموعد النهائي للتقديم على مقعد في المدرسة الابتدائية؟,What's the deadline to apply for a seat in elementary school?,When is the deadline to apply for a primary school place?
+S02,ar,ما هو آخر موعد للتقديم على مقعد في المدرسة الثانوية؟,What's the last appointment to apply for a high school seat?,What is the last date to apply for a secondary school place?
+S03,ar,متى سأعرف المدرسة الابتدائية التي قُبل فيها طفلي؟,When will I know the elementary school where my child is accepted?,When will I find out which primary school my child has been offered?
+S04,ar,كم لدي من الوقت للاستئناف إذا رُفض طلب طفلي للحصول على مقعد في المدرسة؟,How much time do I have to appeal if my child's application for a seat at school is denied?,How long do I have to appeal if my child is refused a school place?
+S05,ar,هل يمكن أن أُغرَّم إذا أخذت طفلي في عطلة أثناء الفصل الدراسي؟,Can I be fined if I take my child on vacation during term time?,Can I be fined for taking my child on holiday during term time?
+S06,ar,هل يمكن لطفلي الحصول على وجبات مدرسية مجانية إذا كنت أتلقى Universal Credit؟,Can my child get free school meals if I get Universal Credit?,Can my child get free school meals if I receive Universal Credit?
+S07,ar,هل المواصلات المدرسية مجانية إذا كانت المدرسة بعيدة عن المنزل؟,Is school transport free if the school is far from home?,Is school transport free if the school is far from home?
+S08,ar,في أي عمر يمكن لطفلي ترك المدرسة؟,At what age can my child leave school?,At what age can my child leave school?
+S09,ar,ما الدعم الذي يمكن أن يحصل عليه طفلي إذا كانت لديه احتياجات تعليمية خاصة؟,What support can my child receive if he or she has special educational needs?,What support can my child get for special educational needs?
+S10,ar,كيف أقدم شكوى ضد المدرسة الحكومية التي يدرس فيها طفلي؟,How do I file a complaint against the public school my child attends?,How do I complain about my child's state school?
+H01,ar,هل يمكن للمالك أن يطردني دون إبداء سبب؟,Can the owner fire me without giving a reason?,Can my landlord evict me without giving a reason?
+H02,ar,كم مرة يمكن للمالك أن يرفع الإيجار؟,How many times can the landlord raise the rent?,How often can my landlord increase the rent?
+H03,ar,أخذ المالك مني مبلغ تأمين، هل يجب أن يكون هذا التأمين محميًا؟,The owner took insurance money from me. Does that insurance have to be protected?,My landlord took a deposit from me. Does it have to be protected?
+H04,ar,كيف أحصل على مساعدة في دفع الإيجار إذا كان دخلي منخفضًا؟,How can I get help paying the rent if my income is low?,How can I get help paying my rent if I am on a low income?
+H05,ar,كيف أتقدم بطلب للحصول على سكن من المجلس المحلي؟,How do I apply for housing from the local council?,How do I apply for council housing?
+H06,ar,أنا على وشك أن أفقد منزلي، هل يمكن للمجلس المحلي مساعدتي؟,I'm about to lose my house. Can the local council help me?,I am about to lose my home. Can the council help me?
+H07,ar,هل يجب على المالك أن يحافظ على المنزل المؤجر في حالة جيدة؟,Should the landlord keep the rented house in good condition?,Does my landlord have to keep my rented home in good repair?
+H08,ar,كم من الوقت يجب أن يخطرني المالك قبل أن يزور المنزل؟,How long does the owner have to tell me before he visits the house?,How much notice must my landlord give before visiting the property?
+H09,ar,هل أحصل على خصم في ضريبة المجلس المحلي إذا كنت أعيش وحدي؟,Can I get a local council tax deduction if I live alone?,Do I get a council tax discount if I live alone?
+H10,ar,ماذا يمكنني أن أفعل إذا أراد المجلس المحلي أو جمعية الإسكان طردي؟,What can I do if the local council or the housing association wants me fired?,What can I do if my council or housing association wants to evict me?
+M01,ar,كيف أسجل لدى طبيب عام؟,How do I register with a general practitioner?,How do I register with a GP surgery?
+M02,ar,هل أحتاج إلى إثبات عنوان أو إثبات وضع الهجرة للتسجيل لدى طبيب عام؟,Do I need proof of address or proof of immigration status to register with a GP?,Do I need proof of address or immigration status to register with a GP?
+M03,ar,متى يجب أن أستخدم خدمة NHS 111؟,When should I use NHS 111?,When should I use NHS 111?
+M04,ar,متى يجب أن أذهب إلى قسم الطوارئ؟,When do I have to go to the ER?,When should I go to A&E?
+M05,ar,متى يجب أن أتصل بالرقم 999؟,When should I call 999?,When should I call 999?
+M06,ar,كيف أجد طبيب أسنان تابعًا لـ NHS؟,How do I find an NHS dentist?,How can I find an NHS dentist?
+M07,ar,كم يكلف فحص الأسنان الأساسي في NHS؟,How much does a basic dental exam cost in the NHS?,How much does a basic NHS dental check-up cost?
+M08,ar,هل يمكن للصيدلية أن تعطيني دواءً يحتاج إلى وصفة طبية دون أن أرى الطبيب؟,Can the pharmacy give me a prescription without seeing a doctor?,Can a pharmacy give me prescription medicine without seeing a GP?
+M09,ar,هل يمكنني الحصول على مساعدة في التكاليف الصحية إذا كان دخلي منخفضًا؟,Can I get help with medical expenses if my income is low?,Can I get help with health costs if I have a low income?
+M10,ar,كم تبلغ رسوم الرعاية الصحية للمهاجرين بالنسبة للطلاب؟,How much is immigrant health care for students?,How much is the immigration health surcharge for students?
+S01,pl,Jaki jest termin składania wniosku o miejsce w szkole podstawowej?,What is the deadline for applying for a place in primary school?,When is the deadline to apply for a primary school place?
+S02,pl,Do kiedy trzeba złożyć wniosek o miejsce w szkole średniej?,When do you have to apply for a high school job?,What is the last date to apply for a secondary school place?
+S03,pl,"Kiedy dowiem się, do której szkoły podstawowej zostało przyjęte moje dziecko?",When do I find out which elementary school my child was admitted to?,When will I find out which primary school my child has been offered?
+S04,pl,"Ile mam czasu na odwołanie, jeśli moje dziecko nie dostało miejsca w szkole?",How much time do I have to appeal if my child doesn't get a place at school?,How long do I have to appeal if my child is refused a school place?
+S05,pl,Czy mogę dostać grzywnę za zabranie dziecka na wakacje w trakcie roku szkolnego?,Can I get a fine for taking a child on vacation during the school year?,Can I be fined for taking my child on holiday during term time?
+S06,pl,"Czy moje dziecko może dostać darmowe posiłki w szkole, jeśli otrzymuję Universal Credit?",Can my child get free school meals if I get Universal Credit?,Can my child get free school meals if I receive Universal Credit?
+S07,pl,"Czy transport do szkoły jest darmowy, jeśli szkoła jest daleko od domu?",Is transportation to school free if the school is far from home?,Is school transport free if the school is far from home?
+S08,pl,W jakim wieku moje dziecko może skończyć szkołę?,How old can my child go to school?,At what age can my child leave school?
+S09,pl,Jakie wsparcie może otrzymać moje dziecko ze specjalnymi potrzebami edukacyjnymi?,What support can my child with special educational needs receive?,What support can my child get for special educational needs?
+S10,pl,Jak złożyć skargę na państwową szkołę mojego dziecka?,How do I file a complaint against my child's public school?,How do I complain about my child's state school?
+H01,pl,Czy wynajmujący może mnie eksmitować bez podania powodu?,Can the landlord expel me without giving a reason?,Can my landlord evict me without giving a reason?
+H02,pl,Jak często wynajmujący może podnosić czynsz?,How often can the landlord raise the rent?,How often can my landlord increase the rent?
+H03,pl,Wynajmujący pobrał ode mnie kaucję. Czy musi ona być zabezpieczona?,The landlord took my bail. Does it have to be secured?,My landlord took a deposit from me. Does it have to be protected?
+H04,pl,"Jak uzyskać pomoc w opłaceniu czynszu, jeśli mam niskie dochody?",How can I get help paying my rent if my income is low?,How can I get help paying my rent if I am on a low income?
+H05,pl,Jak złożyć wniosek o mieszkanie komunalne?,How do I apply for a communal dwelling?,How do I apply for council housing?
+H06,pl,Zaraz stracę dom. Czy lokalny urząd może mi pomóc?,I'm about to lose my house. Can the local office help me?,I am about to lose my home. Can the council help me?
+H07,pl,Czy wynajmujący musi utrzymywać wynajmowane mieszkanie w dobrym stanie technicznym?,Does the tenant have to keep the rented apartment in good technical condition?,Does my landlord have to keep my rented home in good repair?
+H08,pl,Z jakim wyprzedzeniem wynajmujący musi mnie uprzedzić przed wizytą w mieszkaniu?,What kind of advance does the landlord have to warn me before visiting the apartment?,How much notice must my landlord give before visiting the property?
+H09,pl,"Czy dostanę zniżkę na podatek lokalny, jeśli mieszkam sam?",Do I get a local tax discount if I live alone?,Do I get a council tax discount if I live alone?
+H10,pl,"Co mogę zrobić, jeśli lokalny urząd lub stowarzyszenie mieszkaniowe chce mnie eksmitować?",What can I do if a local office or housing association wants to expel me?,What can I do if my council or housing association wants to evict me?
+M01,pl,Jak zarejestrować się u lekarza rodzinnego?,How do I register with a family doctor?,How do I register with a GP surgery?
+M02,pl,"Czy potrzebuję potwierdzenia adresu lub statusu imigracyjnego, aby zarejestrować się u lekarza rodzinnego?",Do I need proof of address or immigration status to register with a family doctor?,Do I need proof of address or immigration status to register with a GP?
+M03,pl,Kiedy powinienem skorzystać z NHS 111?,When should I use NHS 111?,When should I use NHS 111?
+M04,pl,Kiedy powinienem iść na szpitalny oddział ratunkowy?,When am I supposed to go to the hospital emergency room?,When should I go to A&E?
+M05,pl,Kiedy powinienem dzwonić pod numer 999?,When should I call 999?,When should I call 999?
+M06,pl,Jak znaleźć dentystę NHS?,How do you find an NHS dentist?,How can I find an NHS dentist?
+M07,pl,Ile kosztuje podstawowy przegląd u dentysty w NHS?,How much does a basic dental exam at the NHS cost?,How much does a basic NHS dental check-up cost?
+M08,pl,Czy apteka może wydać mi lek na receptę bez wizyty u lekarza?,Can the pharmacy give me a prescription without a doctor's appointment?,Can a pharmacy give me prescription medicine without seeing a GP?
+M09,pl,"Czy mogę dostać pomoc w pokryciu kosztów leczenia, jeśli mam niskie dochody?",Can I get help covering my medical expenses if my income is low?,Can I get help with health costs if I have a low income?
+M10,pl,Ile wynosi dopłata zdrowotna dla imigrantów w przypadku studentów?,How much is immigrant health care for students?,How much is the immigration health surcharge for students?
+S01,ro,Care este termenul limită pentru a depune cererea pentru un loc la școala primară?,What's the deadline to apply for a place in elementary school?,When is the deadline to apply for a primary school place?
+S02,ro,Până la ce dată trebuie să aplic pentru un loc la școala secundară?,By what time do I have to apply for a high school spot?,What is the last date to apply for a secondary school place?
+S03,ro,Când voi afla la ce școală primară a primit loc copilul meu?,When will I find out what elementary school my child got into?,When will I find out which primary school my child has been offered?
+S04,ro,Cât timp am la dispoziție să fac contestație dacă copilul meu nu a primit loc la școală?,How long am I available to challenge if my child is not given a seat at school?,How long do I have to appeal if my child is refused a school place?
+S05,ro,Pot primi amendă dacă îmi iau copilul în vacanță în timpul semestrului?,Can I get a fine if I take my child on vacation during the semester?,Can I be fined for taking my child on holiday during term time?
+S06,ro,Poate copilul meu să primească mese gratuite la școală dacă primesc Universal Credit?,Can my child get free school meals if I get Universal Credit?,Can my child get free school meals if I receive Universal Credit?
+S07,ro,Este transportul la școală gratuit dacă școala este departe de casă?,Is transportation to school free if the school is far from home?,Is school transport free if the school is far from home?
+S08,ro,La ce vârstă poate copilul meu să termine școala?,At what age can my child finish school?,At what age can my child leave school?
+S09,ro,Ce sprijin poate primi copilul meu pentru cerințe educaționale speciale?,What support can my child receive for special educational requirements?,What support can my child get for special educational needs?
+S10,ro,Cum fac o plângere împotriva școlii de stat a copilului meu?,How do I make a complaint against my child's public school?,How do I complain about my child's state school?
+H01,ro,Poate proprietarul să mă evacueze fără să-mi dea un motiv?,Can the owner evacuate me without giving me a reason?,Can my landlord evict me without giving a reason?
+H02,ro,Cât de des poate proprietarul să crească chiria?,How often can the landlord raise the rent?,How often can my landlord increase the rent?
+H03,ro,Proprietarul mi-a luat o garanție. Trebuie aceasta să fie protejată?,The landlord got me a warranty. Does this have to be protected?,My landlord took a deposit from me. Does it have to be protected?
+H04,ro,Cum pot primi ajutor pentru plata chiriei dacă am un venit mic?,How can I get help paying my rent if I have a low income?,How can I get help paying my rent if I am on a low income?
+H05,ro,Cum aplic pentru o locuință socială de la consiliul local?,How do I apply for a social housing at the local council?,How do I apply for council housing?
+H06,ro,Sunt pe punctul de a-mi pierde locuința. Mă poate ajuta consiliul local?,I'm about to lose my home. Can the local council help me?,I am about to lose my home. Can the council help me?
+H07,ro,Este proprietarul obligat să mențină locuința închiriată în stare bună?,Is the landlord obligated to keep the rented dwelling in good condition?,Does my landlord have to keep my rented home in good repair?
+H08,ro,Cu cât timp înainte trebuie să mă anunțe proprietarul dacă vrea să vină în locuință?,How long before does the landlord have to let me know if he wants to come into the apartment?,How much notice must my landlord give before visiting the property?
+H09,ro,Primesc reducere la impozitul local pe locuință dacă locuiesc singur?,Do I get a local housing tax discount if I live alone?,Do I get a council tax discount if I live alone?
+H10,ro,Ce pot face dacă consiliul local sau asociația de locuințe vrea să mă evacueze?,What can I do if the local council or housing association wants to evacuate me?,What can I do if my council or housing association wants to evict me?
+M01,ro,Cum mă înregistrez la un medic de familie?,How do I register with a family doctor?,How do I register with a GP surgery?
+M02,ro,Am nevoie de dovada adresei sau a statutului de imigrant ca să mă înregistrez la medicul de familie?,Do I need proof of address or immigration status to register with the family doctor?,Do I need proof of address or immigration status to register with a GP?
+M03,ro,Când ar trebui să folosesc NHS 111?,When should I use NHS 111?,When should I use NHS 111?
+M04,ro,Când ar trebui să merg la urgențe?,When should I go to the ER?,When should I go to A&E?
+M05,ro,Când ar trebui să sun la 999?,When should I call 999?,When should I call 999?
+M06,ro,Cum găsesc un dentist NHS?,How do I find an NHS dentist?,How can I find an NHS dentist?
+M07,ro,Cât costă un control stomatologic de bază la NHS?,How much does a basic dental check at the NHS cost?,How much does a basic NHS dental check-up cost?
+M08,ro,Poate o farmacie să-mi dea medicamente cu rețetă fără să merg la medic?,Can a pharmacy give me prescription drugs without going to the doctor?,Can a pharmacy give me prescription medicine without seeing a GP?
+M09,ro,Pot primi ajutor pentru costurile medicale dacă am venituri mici?,Can I get help with medical expenses if I have low incomes?,Can I get help with health costs if I have a low income?
+M10,ro,Cât costă taxa de sănătate pentru imigranți în cazul studenților?,How much does immigrant health care cost for students?,How much is the immigration health surcharge for students?
+S01,ur,پرائمری اسکول میں داخلے کی درخواست دینے کی آخری تاریخ کیا ہے؟,What is the deadline for applying for admission to primary school?,When is the deadline to apply for a primary school place?
+S02,ur,سیکنڈری اسکول میں داخلے کے لیے درخواست کس تاریخ تک دینی ہوگی؟,By what date is the application for admission to secondary school required?,What is the last date to apply for a secondary school place?
+S03,ur,مجھے کب پتہ چلے گا کہ میرے بچے کو کون سے پرائمری اسکول میں جگہ ملی ہے؟,When will I know which elementary school my child has been admitted to?,When will I find out which primary school my child has been offered?
+S04,ur,اگر میرے بچے کو اسکول میں جگہ نہ ملے تو اپیل کرنے کے لیے میرے پاس کتنا وقت ہے؟,"If my child does not have a place at school, how much time do I have to appeal?",How long do I have to appeal if my child is refused a school place?
+S05,ur,کیا ٹرم کے دوران بچے کو چھٹیوں پر لے جانے پر مجھے جرمانہ ہو سکتا ہے؟,Can I be fined for taking a child on vacation during term time?,Can I be fined for taking my child on holiday during term time?
+S06,ur,اگر مجھے Universal Credit ملتا ہے تو کیا میرے بچے کو اسکول میں مفت کھانا مل سکتا ہے؟,"If I get Universal Credit, can my child get free school meals?",Can my child get free school meals if I receive Universal Credit?
+S07,ur,اگر اسکول گھر سے دور ہو تو کیا اسکول کی ٹرانسپورٹ مفت ہے؟,"If the school is far from home, is school transport free?",Is school transport free if the school is far from home?
+S08,ur,میرا بچہ کس عمر میں اسکول چھوڑ سکتا ہے؟,At what age can my child leave school?,At what age can my child leave school?
+S09,ur,خصوصی تعلیمی ضروریات والے میرے بچے کو کیا مدد مل سکتی ہے؟,What can I do to help my child with special educational needs?,What support can my child get for special educational needs?
+S10,ur,میں اپنے بچے کے سرکاری اسکول کے بارے میں شکایت کیسے کروں؟,How can I complain about my child's public school?,How do I complain about my child's state school?
+H01,ur,کیا مالک مکان مجھے بغیر کوئی وجہ بتائے گھر سے نکال سکتا ہے؟,Can the landlord evict me without giving a reason?,Can my landlord evict me without giving a reason?
+H02,ur,مالک مکان کتنی بار کرایہ بڑھا سکتا ہے؟,How often can the landlord increase the rent?,How often can my landlord increase the rent?
+H03,ur,مالک مکان نے مجھ سے ڈپازٹ لیا ہے، کیا اس ڈپازٹ کا محفوظ ہونا ضروری ہے؟,"The landlord has taken a deposit from me, must that deposit be secured?",My landlord took a deposit from me. Does it have to be protected?
+H04,ur,کم آمدنی کی صورت میں مجھے کرایہ ادا کرنے میں مدد کیسے مل سکتی ہے؟,"If I have a low income, how can I be helped to pay the rent?",How can I get help paying my rent if I am on a low income?
+H05,ur,میں کونسل کے مکان کے لیے درخواست کیسے دوں؟,How can I apply for a council house?,How do I apply for council housing?
+H06,ur,میرا گھر چھننے والا ہے، کیا کونسل میری مدد کر سکتی ہے؟,"My house is on the verge of collapse, can the council help me?",I am about to lose my home. Can the council help me?
+H07,ur,کیا مالک مکان پر کرائے کے گھر کو اچھی حالت میں رکھنا لازم ہے؟,Is it necessary to keep a rented house in good condition?,Does my landlord have to keep my rented home in good repair?
+H08,ur,گھر آنے سے پہلے مالک مکان کو مجھے کتنا پہلے اطلاع دینی چاہیے؟,How much should I inform the landlord before I return home?,How much notice must my landlord give before visiting the property?
+H09,ur,اگر میں اکیلا رہتا ہوں تو کیا مجھے کونسل ٹیکس میں رعایت ملتی ہے؟,"If I live alone, do I get a tax discount?",Do I get a council tax discount if I live alone?
+H10,ur,اگر کونسل یا ہاؤسنگ ایسوسی ایشن مجھے گھر سے نکالنا چاہے تو میں کیا کر سکتا ہوں؟,What can I do if the council or housing association wants me out of the house?,What can I do if my council or housing association wants to evict me?
+M01,ur,میں جی پی کے پاس رجسٹریشن کیسے کرواؤں؟,How do I register with the GP?,How do I register with a GP surgery?
+M02,ur,کیا جی پی کے پاس رجسٹر ہونے کے لیے مجھے پتے یا امیگریشن اسٹیٹس کا ثبوت چاہیے؟,Do I need proof of address or immigration status to register with the GP?,Do I need proof of address or immigration status to register with a GP?
+M03,ur,مجھے NHS 111 کب استعمال کرنا چاہیے؟,When should I use NHS 111?,When should I use NHS 111?
+M04,ur,مجھے ہسپتال کے ایمرجنسی شعبے میں کب جانا چاہیے؟,When should I go to the hospital emergency department?,When should I go to A&E?
+M05,ur,مجھے 999 پر کب کال کرنی چاہیے؟,When should I call 999?,When should I call 999?
+M06,ur,میں NHS کا ڈینٹسٹ کیسے تلاش کروں؟,How do I find an NHS dentist?,How can I find an NHS dentist?
+M07,ur,NHS میں دانتوں کے بنیادی معائنے پر کتنا خرچ آتا ہے؟,How much does a basic dental examination cost in the NHS?,How much does a basic NHS dental check-up cost?
+M08,ur,کیا فارمیسی ڈاکٹر کو دکھائے بغیر مجھے نسخے والی دوا دے سکتی ہے؟,Can a pharmacist give me a prescription without seeing a doctor?,Can a pharmacy give me prescription medicine without seeing a GP?
+M09,ur,کیا کم آمدنی کی صورت میں مجھے علاج کے اخراجات میں مدد مل سکتی ہے؟,"If I have a low income, can I help with medical expenses?",Can I get help with health costs if I have a low income?
+M10,ur,طلبہ کے لیے امیگریشن ہیلتھ سرچارج کتنا ہے؟,What is the immigration health surcharge for students?,How much is the immigration health surcharge for students?

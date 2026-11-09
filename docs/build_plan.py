@@ -14,7 +14,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 OUT = pathlib.Path(__file__).with_name("project-plan.xlsx")
 START = dt.date(2026, 10, 5)  # Monday of week 1 (week 4 = 26 Oct - 1 Nov 2026)
-CURRENT_WEEK = 4
+CURRENT_WEEK = 5
 
 FONT = "Arial"
 H_FILL = PatternFill("solid", fgColor="1F3864")
@@ -78,11 +78,13 @@ TASKS = [
     (4, "T18", "Failure analysis (wrong nation, strict answer phrase, Urdu weakest)", "docs/week-04-report.md", "Done"),
     (4, "T19", "Rebuild week 4 notebook on the project pipeline", "notebooks/week04_retrieval.ipynb", "Done"),
     (4, "T20", "Weekly progress report for supervisor", "docs/week-04-report.md", "Done"),
-    (5, "T21", "Tag chunks by UK nation and filter to England by default", "", "Not started"),
-    (5, "T22", "Native-speaker check of pl/ro/ar/ur test questions", "", "Not started"),
-    (5, "T23", "Language identification of the user's question", "", "Not started"),
-    (5, "T24", "NLLB query translation; compare translate-then-retrieve vs direct multilingual retrieval", "", "Not started"),
-    (5, "T25", "Try a reranker on top-20 to close the page-vs-answer gap (hit@3 0.96 vs ans@3 0.67)", "", "Not started"),
+    (5, "T21", "Tag chunks by UK nation and filter to England by default", "src/chunk.py, src/pipeline.py", "Done"),
+    (5, "T22", "Native-speaker check of pl/ro/ar/ur test questions and of the translation review", "eval/translation_review.csv", "Not started"),
+    (5, "T23", "Language identification of the user's question (lingua; 150/150 correct)", "src/language.py", "Done"),
+    (5, "T24", "NLLB query translation; compare translate-then-retrieve vs direct multilingual retrieval", "src/translate.py, results/week5_by_lang.csv", "Done"),
+    (5, "T25", "Rerank top 20 with bge-reranker-v2-m3 (ans@3 0.68 -> 0.87)", "src/rerank.py", "Done"),
+    (5, "T25a", "Search pipeline: fusion + England filter + rerank (chosen: ans@3 0.89, hit@3 1.00)", "src/pipeline.py", "Done"),
+    (5, "T25b", "Week 5 notebooks (local + Colab) and progress report", "notebooks/week05_*.ipynb, docs/week-05-report.md", "Done"),
     (6, "T26", "Choose LLM API (multilingual quality, cost, data handling)", "", "Not started"),
     (6, "T27", "Grounded prompt: answer only from sources, numbered citations with URLs, plain language", "", "Not started"),
     (6, "T28", "Refusal rule for low retrieval score and out-of-scope questions", "", "Not started"),
@@ -105,10 +107,11 @@ TASKS = [
 ]
 
 RISKS = [
-    ("Answer is correct for the wrong UK nation (Scotland/Wales/NI sections)", "High", "Seen in week 4 (school leaving age)", "Tag chunks by nation, filter to England, show jurisdiction in UI (T21)"),
+    ("Answer is correct for the wrong UK nation (Scotland/Wales/NI sections)", "Low", "4 wrong-nation top results in week 4; 0 after the week 5 filter", "Nation tags + England filter (T21, done); show jurisdiction in UI"),
+    ("Machine translation changes the meaning of questions or answers", "High", "11 of 120 NLLB question translations changed meaning (week 5)", "Fusion with original-language search + rerank on original question; check answer translations in week 6"),
     ("Official page changes after crawl (e.g. Renters' Rights Act from 1 May 2026)", "High", "public_updated_at did not reflect the 2026 changes", "Store fetch date, show it with every citation, re-crawl and measure drift (T39)"),
     ("Author-written translations bias the multilingual test set", "Medium", "All non-English queries unverified", "Native-speaker check before reporting final numbers (T22)"),
-    ("Right page retrieved but not the answering section", "Medium", "hit@3 0.96 vs ans@3 0.67", "Reranker, better chunking, graded relevance judgments (T25, T32)"),
+    ("Right page retrieved but not the answering section", "Low", "ans@3 0.67 (week 4) -> 0.89 with rerank (week 5)", "Reranker (T25, done); graded relevance judgments (T32)"),
     ("Ethics approval delays the user study", "Medium", "Study planned for week 9", "Submit early; fall back to expert review if not approved"),
     ("NLLB licence is non-commercial", "Low", "CC-BY-NC-4.0", "Acceptable for research; note in deployment recommendations"),
     ("Council-specific rules (admissions dates, housing) live on 300+ council sites", "Medium", "GOV.UK local_transaction pages only redirect", "Assistant points users to their council; optional single-council case study"),
@@ -194,6 +197,19 @@ def main():
     for i, row in enumerate(res.itertuples(index=False)):
         ws.append(list(row))
         body(ws, 5 + i, len(cols), NOW if row.lang == "ALL" else None)
+        for c in range(3, 7):
+            ws.cell(row=5 + i, column=c).number_format = "0.000"
+
+    ws = wb.create_sheet("Week 5 results")
+    ws["A1"] = "Week 5: language ID, translation, England filter, reranking (same 150 queries)"
+    ws["A1"].font = TITLE
+    ws["A2"] = "Source: results/week5_by_lang.csv. Chosen set-up: F fusion+filter+rerank."
+    ws["A2"].font = SUB
+    res5 = pd.read_csv(pathlib.Path(__file__).parents[1] / "results/week5_by_lang.csv")
+    header(ws, 4, [("System", 26), ("Language", 10), ("hit@1", 9), ("hit@3", 9), ("MRR@10", 9), ("ans@3", 9)])
+    for i, row in enumerate(res5.itertuples(index=False)):
+        ws.append(list(row))
+        body(ws, 5 + i, 6, NOW if row.lang == "ALL" else None)
         for c in range(3, 7):
             ws.cell(row=5 + i, column=c).number_format = "0.000"
 

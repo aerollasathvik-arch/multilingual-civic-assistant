@@ -1,6 +1,6 @@
 # Literature notes (Week 2)
 
-Every arXiv entry below was checked against the arXiv API on 28 Oct 2026 (title, first author, year).
+Every arXiv entry below was checked against the arXiv API (28 Oct and 2 Nov 2026; Cormack et al. via Crossref) (title, first author, year).
 Use the published venue version when one exists.
 
 | Topic | Reference | Why it matters here |
@@ -14,6 +14,8 @@ Use the published venue version when one exists.
 | Embedding training | Wang, L. et al. (2022) *Text Embeddings by Weakly-Supervised Contrastive Pre-training*. arXiv:2212.03533 | The E5 training approach. |
 | Vector search | Johnson, J., Douze, M. & Jégou, H. (2017) *Billion-scale similarity search with GPUs*. arXiv:1702.08734 | FAISS, the vector index. |
 | Machine translation | NLLB Team (2022) *No Language Left Behind: Scaling Human-Centered Machine Translation*. arXiv:2207.04672 | NLLB-200, candidate translation layer (licence CC-BY-NC-4.0: research use only). |
+| Reranking model | Chen, J. et al. (2024) *M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation*. arXiv:2402.03216 | BGE-M3 family; basis of the bge-reranker-v2-m3 cross-encoder used in week 5. |
+| Rank fusion | Cormack, G.V., Clarke, C.L.A. & Buettcher, S. (2009) *Reciprocal rank fusion outperforms Condorcet and individual rank learning methods*. SIGIR '09. doi:10.1145/1571941.1572114 | RRF (k = 60) used to combine original-language and translated searches. |
 | Lexical retrieval | Robertson, S. & Zaragoza, H. (2009) *The Probabilistic Relevance Framework: BM25 and Beyond*. Foundations and Trends in Information Retrieval 3(4) | BM25 baseline in week 4. |
 
 Gaps still to read for the literature review chapter (week 11): hallucination surveys, plain-language /

@@ -2,7 +2,9 @@
 
 Rules (kept simple so they are easy to describe in the methodology):
   * one chunk per h2/h3 section;
-  * sections shorter than MIN_WORDS are merged into the next one on the same page;
+  * each section is tagged with the UK nation it applies to (from its heading);
+  * sections shorter than MIN_WORDS are merged into the next one on the same page,
+    but only when both have the same nation tag;
   * sections longer than MAX_WORDS are split into windows with OVERLAP words;
   * every chunk text starts with "<page title> - <section heading>:" so the
     embedding sees the context a reader would see.
@@ -10,27 +12,43 @@ Output: data/processed/chunks.csv
 """
 import json
 import pathlib
+import re
 
 import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 MIN_WORDS, MAX_WORDS, OVERLAP = 40, 200, 40
+OTHER_NATIONS = ["Scotland", "Wales", "Northern Ireland"]
+
+
+def nation_of(heading):
+    """GOV.UK marks nation-specific sections in the heading ("Scotland", "If you're in Wales...").
+    Everything else applies to England (or the whole UK). NHS.uk pages cover England only."""
+    named = [n for n in OTHER_NATIONS if re.search(rf"\b{n}\b", heading)]
+    return ";".join(n.lower().replace(" ", "_") for n in named) or "england"
+
+
+def join(a, b):
+    return {"heading": a["heading"] + " / " + b["heading"], "text": a["text"] + " " + b["text"],
+            "nation": a["nation"]}
 
 
 def merge_small(sections):
     merged, carry = [], None
     for s in sections:
-        if carry:
-            s = {"heading": carry["heading"] + " / " + s["heading"], "text": carry["text"] + " " + s["text"]}
-            carry = None
+        s = {**s, "nation": nation_of(s["heading"])}
+        if carry and carry["nation"] == s["nation"]:
+            s = join(carry, s)
+        elif carry:
+            merged.append(carry)  # never merge across nations; keep the short one alone
+        carry = None
         if len(s["text"].split()) < MIN_WORDS:
             carry = s
         else:
             merged.append(s)
-    if carry:  # trailing short section joins the previous one, or stands alone
-        if merged:
-            merged[-1] = {"heading": merged[-1]["heading"] + " / " + carry["heading"],
-                          "text": merged[-1]["text"] + " " + carry["text"]}
+    if carry:  # trailing short section joins the previous one if same nation, or stands alone
+        if merged and merged[-1]["nation"] == carry["nation"]:
+            merged[-1] = join(merged[-1], carry)
         else:
             merged.append(carry)
     return merged
@@ -53,7 +71,7 @@ def main():
                 rows.append({
                     "chunk_id": f"{p['id']}-{s_i:02d}-{w_i}",
                     "page_id": p["id"], "url": p["url"], "source": p["source"], "domain": p["domain"],
-                    "title": p["title"], "heading": s["heading"],
+                    "title": p["title"], "heading": s["heading"], "nation": s["nation"],
                     "public_updated_at": p["public_updated_at"], "fetched_at": p["fetched_at"],
                     "words": len(w), "body": body,
                     "text": f"{p['title']} - {s['heading']}: {body}",
@@ -63,6 +81,7 @@ def main():
     print(f"{len(pages)} pages -> {len(df)} chunks")
     print(df.groupby("domain").agg(pages=("page_id", "nunique"), chunks=("chunk_id", "count"),
                                    words=("words", "sum")).to_string())
+    print("nation tags:", df.nation.value_counts().to_dict())
     print("chunk words: median", int(df.words.median()), "min", df.words.min(), "max", df.words.max())
 
 
