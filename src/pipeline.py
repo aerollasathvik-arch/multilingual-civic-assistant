@@ -60,12 +60,15 @@ class SearchPipeline:
         if self.allowed is not None:
             ranked = [i for i in ranked if i in self.allowed]
         ranked = ranked[:self.pool]
+        scores = {}
         if self.reranker:
-            ranked = [i for i, _ in self.reranker.rerank(question, ranked, self.texts)]
+            scores = dict(self.reranker.rerank(question, ranked, self.texts))
+            ranked = sorted(ranked, key=lambda i: -scores[i])
         results = []
         for i in ranked[:k]:
             c = self.chunks.iloc[i]
             results.append({"chunk": int(i), "title": c.title, "heading": c.heading, "url": c.url,
                             "source": c.source, "nation": c.nation, "public_updated_at": c.public_updated_at,
-                            "fetched_at": c.fetched_at, "text": c.body})
+                            "fetched_at": c.fetched_at, "text": c.body,
+                            "score": scores.get(i)})  # reranker relevance (0-1), used by the refusal rule
         return {"lang": lang, "english_query": english, "results": results}
