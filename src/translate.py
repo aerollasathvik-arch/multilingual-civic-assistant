@@ -14,9 +14,11 @@ NLLB_CODES = {"en": "eng_Latn", "pl": "pol_Latn", "ro": "ron_Latn", "ar": "arb_A
 
 
 class Translator:
-    def __init__(self, model_name=MODEL):
+    def __init__(self, model_name=MODEL, device=None):
         self.tok = AutoTokenizer.from_pretrained(model_name)
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"  # GPU on Colab, CPU elsewhere
+        # Default as in the week 5-7 experiments: GPU on Colab, CPU elsewhere. The web app (week 8) passes
+        # "mps" on Apple silicon, where CPU translation can take minutes when other programs are busy.
+        self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name).eval().to(self.device)
 
     @torch.inference_mode()

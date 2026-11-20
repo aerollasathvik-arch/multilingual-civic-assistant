@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ask about health, housing and schools</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/static/style.css">
+<script src="/static/app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#question" data-i18n="skip">Skip to your question</a>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <p class="product"><span lang="en" dir="ltr">GOV.UK</span> · <span lang="en" dir="ltr">NHS.uk</span></p>
+    <div class="lang-picker">
+      <label for="lang" data-i18n="lang_label">Language</label>
+      <select id="lang" autocomplete="off"></select>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <h1 data-i18n="title">Ask about health, housing and schools in England</h1>
+  <p class="intro" data-i18n="intro"></p>
+
+  <div class="notice" role="note">
+    <p><strong data-i18n="notice_title"></strong> <span data-i18n="notice"></span></p>
+  </div>
+
+  <form id="ask-form" class="ask" novalidate>
+    <label for="question" class="label" data-i18n="q_label">Your question</label>
+    <p id="question-hint" class="hint" data-i18n="q_hint"></p>
+    <p id="question-error" class="error" hidden></p>
+    <textarea id="question" name="question" rows="3" maxlength="500" dir="auto" spellcheck="true"
+              autocomplete="off" aria-describedby="question-hint"></textarea>
+    <button type="submit" id="ask" class="button" data-i18n="ask">Ask</button>
+  </form>
+
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+
+  <section id="result" class="result" aria-labelledby="result-heading" hidden>
+    <h2 id="result-heading" tabindex="-1"></h2>
+    <p id="answer-lang" class="meta"></p>
+    <div id="answer" class="answer"></div>
+    <div id="health" class="health" role="note" hidden>
+      <h3 data-i18n="health_heading"></h3>
+      <p id="health-text"></p>
+    </div>
+    <div id="official" class="official" hidden>
+      <h3 data-i18n="official_sites"></h3>
+      <ul>
+        <li><a href="https://www.gov.uk" target="_blank" rel="noopener noreferrer"><bdi lang="en" dir="ltr">www.gov.uk</bdi><span class="visually-hidden" data-i18n="new_tab"></span></a></li>
+        <li><a href="https://www.nhs.uk" target="_blank" rel="noopener noreferrer"><bdi lang="en" dir="ltr">www.nhs.uk</bdi><span class="visually-hidden" data-i18n="new_tab"></span></a></li>
+      </ul>
+    </div>
+    <div id="sources-block" hidden>
+      <h3 id="sources-heading" data-i18n="sources_heading"></h3>
+      <p id="sources-intro" class="hint"></p>
+      <ol id="sources" class="sources" aria-labelledby="sources-heading"></ol>
+    </div>
+  </section>
+
+  <section class="examples" aria-labelledby="examples-heading">
+    <h2 id="examples-heading" data-i18n="examples">Example questions</h2>
+    <p class="hint" data-i18n="examples_hint"></p>
+    <ul id="examples"></ul>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="help" data-i18n="help"></p>
+    <p class="licence" lang="en" dir="ltr" data-i18n="licence"></p>
+  </div>
+</footer>
+
+<noscript><p class="wrap">This page needs JavaScript.</p></noscript>
+</body>
+</html>

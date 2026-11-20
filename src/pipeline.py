@@ -31,7 +31,7 @@ def rrf(*ranked_lists, k=RRF_K):
 
 
 class SearchPipeline:
-    def __init__(self, chunks=None, translate=True, rerank=True, england_only=True, pool=20):
+    def __init__(self, chunks=None, translate=True, rerank=True, england_only=True, pool=20, translator_device=None):
         self.chunks = chunks if chunks is not None else pd.read_csv(ROOT / "data/processed/chunks.csv")
         self.texts = self.chunks.text.tolist()
         self.retriever = DenseRetriever(E5, self.texts)
@@ -40,7 +40,7 @@ class SearchPipeline:
         self.translator = None
         if translate:
             from translate import Translator
-            self.translator = Translator()
+            self.translator = Translator(device=translator_device)
         self.reranker = None
         if rerank:
             from rerank import Reranker

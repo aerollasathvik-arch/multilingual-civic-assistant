@@ -67,7 +67,8 @@ class Assistant:
         self.mode = mode
 
     def refuse(self, base, reason):
-        return {**base, "refused": True, "reason": reason, "answer": REFUSAL[base["lang"]], "sources": []}
+        return {**base, "refused": True, "reason": reason, "answer": REFUSAL[base["lang"]], "health_note": None,
+                "sources": []}
 
     def answer_from(self, search, question, mode=None):
         """Answer from an existing search result (lets the evaluation reuse one search for both modes)."""
@@ -87,12 +88,15 @@ class Assistant:
             return self.refuse(base, "model: not in sources")
         text = raw if answer_lang == lang else translate_answer(self.pipeline.translator, raw, lang)
         cited = [n for n in citations(text) if 1 <= n <= len(passages)]
-        sources = [{"n": n, **{k: passages[n - 1][k] for k in ("title", "heading", "url", "source", "fetched_at")}}
+        sources = [{"n": n, **{k: passages[n - 1][k] for k in ("title", "heading", "url", "source",
+                                                                 "public_updated_at", "fetched_at")}}
                    for n in cited]
-        if any(s["source"] == "NHS.uk" for s in sources):
-            text += "\n\n" + HEALTH_NOTE[lang]
-        return {**base, "refused": False, "reason": None, "answer": text, "sources": sources,
-                "passages": passages}
+        # The note stays appended to the answer text (as evaluated in weeks 6-7); the web app shows it apart.
+        note = HEALTH_NOTE[lang] if any(s["source"] == "NHS.uk" for s in sources) else None
+        if note:
+            text += "\n\n" + note
+        return {**base, "refused": False, "reason": None, "answer": text, "health_note": note,
+                "sources": sources, "passages": passages}
 
     def ask(self, question, lang=None, mode=None):
         return self.answer_from(self.pipeline.search(question, k=3, lang=lang), question, mode)
